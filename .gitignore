@@ -225,3 +225,4 @@ cython_debug/
 /module/chat_parser/Session
 /module/Inviter/session
 /module/Inviter/session_old
+/instance
