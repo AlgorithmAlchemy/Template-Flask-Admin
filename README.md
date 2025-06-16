@@ -24,8 +24,8 @@
 git clone https://github.com/AlgorithmAlchemy/Flask-Admin-Template.git
 cd Flask-Admin-Template
 ````
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/f6759825-6203-45e8-b394-44275be372c6" alt="dd_DeWatermark" width="400" />
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/f6759825-6203-45e8-b394-44275be372c6" alt="dd_DeWatermark" width="500" />
 </p>
 
 
