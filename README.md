@@ -24,6 +24,10 @@
 git clone https://github.com/AlgorithmAlchemy/Flask-Admin-Template.git
 cd Flask-Admin-Template
 ````
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a778ef0a-1ba0-41e7-8090-718528b5203b
+" alt="dd_DeWatermark" width="400" />
+</p>
 
 ### 2. Установить зависимости
 
