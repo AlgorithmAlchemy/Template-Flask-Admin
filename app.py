@@ -12,7 +12,7 @@ app.secret_key = 'mysecretkey'
 # Выбери тему Bootswatch здесь:
 app.config['FLASK_ADMIN_SWATCH'] = 'cerulean'  # например, cerulean, flatly, darkly и др.
 
-# Инициализация базы данных
+# Инициализация базы данных.
 db = SQLAlchemy(app)
 
 # Модель пользователя
