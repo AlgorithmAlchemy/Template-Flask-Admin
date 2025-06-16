@@ -84,3 +84,4 @@ MIT License © AlgorithmAlchemy
 
 ```
 "# Template---Flask-Admin-AdminLTE" 
+"# Template---Flask-Admin-AdminLTE" 
