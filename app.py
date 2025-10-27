@@ -3,14 +3,14 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_admin import Admin
 from flask_admin.contrib.sqla import ModelView
 
-# Настройка приложения
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mydatabase.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = 'mysecretkey'
 
-# Выбери тему Bootswatch здесь:
-app.config['FLASK_ADMIN_SWATCH'] = 'cerulean'  # например, cerulean, flatly, darkly и др.
+# Choose a Bootswatch theme here:
+app.config['FLASK_ADMIN_SWATCH'] = 'cerulean'  # Example: cerulean, flatly,
+# darkly
 
 db = SQLAlchemy(app)
 
@@ -24,7 +24,6 @@ class User(db.Model):
 with app.app_context():
     db.create_all()
 
-# Инициализируем админку (без передачи template_mode или theme)
 admin = Admin(app, name='My Admin Panel')
 admin.add_view(ModelView(User, db.session, endpoint='user'))
 
