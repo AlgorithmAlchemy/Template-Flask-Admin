@@ -1,51 +1,50 @@
 # Flask Admin Template
 
-Простой шаблон Flask-приложения с подключённой админкой на Flask-Admin и SQLite.
+A simple Flask application template with an integrated admin panel built using Flask-Admin and SQLite.
 
 ---
 
-## Стек технологий
+## Tech Stack
 
-- [Flask](https://flask.palletsprojects.com/)
-- [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/)
-- [Flask-Admin](https://flask-admin.readthedocs.io/)
-- SQLite (встроенная БД)
+* [Flask](https://flask.palletsprojects.com/)
+* [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/)
+* [Flask-Admin](https://flask-admin.readthedocs.io/)
+* SQLite (built-in database)
 
 ---
 
-## Быстрый старт
+## Quick Start
 
-### 1. Клонировать репозиторий
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/AlgorithmAlchemy/Flask-Admin-Template.git
 cd Flask-Admin-Template
-````
+```
+
 <p align="left">
   <img src="https://github.com/user-attachments/assets/f6759825-6203-45e8-b394-44275be372c6" alt="dd_DeWatermark" width="500" />
 </p>
 
-
-
-### 2. Установить зависимости
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Если `requirements.txt` нет — вручную:
+If `requirements.txt` is missing — install manually:
 
 ```bash
 pip install flask flask_sqlalchemy flask_admin
 ```
 
-### 3. Запустить приложение
+### 3. Run the application
 
 ```bash
 python app.py
 ```
 
-### 4. Открыть в браузере
+### 4. Open in browser
 
 ```
 http://127.0.0.1:5000/admin
@@ -53,37 +52,33 @@ http://127.0.0.1:5000/admin
 
 ---
 
-## Структура проекта
+## Project Structure
 
 ```
-├── app.py                # Основной файл приложения Flask
-├── mydatabase.db         # SQLite база (создаётся автоматически)
-├── README.md             # Документация
-└── .gitignore            # Исключения Git
+├── app.py                # Main Flask application file
+├── mydatabase.db         # SQLite database (created automatically)
+├── README.md             # Documentation
+└── .gitignore            # Git ignore rules
 ```
-
---- 
-
-## Описание
-
-Приложение демонстрирует:
-
-* создание таблицы `User` с полями `id`, `name`, `email`
-* автоматическую генерацию админки через Flask-Admin
-* подключение темы `cerulean` через `FLASK_ADMIN_SWATCH`
 
 ---
 
-## Скриншот
+## Description
 
-*(Скрин админки)*
+This application demonstrates:
+
+* Creating a `User` table with fields `id`, `name`, `email`
+* Automatic admin interface generation using Flask-Admin
+* Applying the `cerulean` theme via `FLASK_ADMIN_SWATCH`
+
+---
+
+## Screenshot
+
+*(Admin panel screenshot)*
 
 ---
 
 ## License
 
 MIT License © AlgorithmAlchemy
-
-```
-"# Template---Flask-Admin-AdminLTE" 
-"# Template---Flask-Admin-AdminLTE" 
