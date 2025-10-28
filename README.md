@@ -73,12 +73,6 @@ This application demonstrates:
 
 ---
 
-## Screenshot
-
-*(Admin panel screenshot)*
-
----
-
 ## License
 
 MIT License © AlgorithmAlchemy
